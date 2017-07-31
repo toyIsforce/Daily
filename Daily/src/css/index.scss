@@ -16,8 +16,8 @@ input {
 	margin: 0px 5px;
 	font-size: 1.5em;
 	background-color: white;
-	border: 1px solid gray;
-	color: rgb(0, 0, 0);
+	border: 2px solid #499cd2;
+	color: #499cd2;
 }
 
 .container {
@@ -38,7 +38,7 @@ input {
 			display: block;
 			width: 90%;
 			border-radius: 10px;
-			background-color: rgba(161, 203, 237, 0.9);
+			background-color: #499cd2;
 			padding: 10px;
 			margin-bottom: 10px;
 			box-shadow: inset 0 1px 0 rgba(255, 255, 255, 1), 0px 1px 1px rgba(0, 0, 0, 0.2);
@@ -61,7 +61,7 @@ input {
 	width: 100%;
 	height: 50%;
 	bottom: 0;
-	background-color: rgba(161, 203, 237, 1);
+	background-color: #499cd2;
 	animation: slideUp 0.4s ease-out 1;
 	
 	ul {

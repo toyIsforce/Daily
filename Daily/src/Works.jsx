@@ -9,8 +9,7 @@ let Works = ({ works, edited, edit, add, remove }) => {
 				<span className="start-time">{work.start}</span>
 				<span>～</span>
 				<span className="end-time">{work.end}</span>
-				<span>休憩</span>
-				<span className="rest-time">{work.rest}</span>
+				<span className="rest-time">({work.rest})</span>
 				<input className="time-edit" type="button" onClick={() => edit(index, work)} value="変更" />
 				<input className="time-remove" type="button" onClick={() => remove(index)} value="削除" />
 			</li>
